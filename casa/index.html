@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Casa Malegrande - Chalma</title>
+
+<link rel="stylesheet" href="estilos.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="container nav-flex">
+
+<div class="logo-destacado">
+<img src="Logo.png" alt="Logo Casa Malegrande">
+</div>
+
+<div class="titulos-header">
+<h1>Casa Malegrande</h1>
+<p>Alquiler & Tradición en Chalma</p>
+</div>
+
+</div>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h2>Hospedaje Familiar en Chalma</h2>
+<p>A solo 7 minutos caminando del Santuario</p>
+
+<a href="#reservar" class="btn-hero">Reservar ahora</a>
+
+</div>
+
+</section>
+
+
+<!-- HISTORIA -->
+
+<section class="historia container">
+
+<h2 class="titulo-verde">Nuestra Historia</h2>
+
+<div class="historia-contenido">
+
+<p>
+Casa Malegrande nació como un proyecto familiar con la intención de brindar
+hospedaje cómodo y accesible para los peregrinos que visitan Chalma.
+</p>
+
+<p>
+Al vivir cerca del Santuario, entendimos la necesidad de contar con un lugar
+donde las familias y grupos pudieran descansar después de su viaje.
+</p>
+
+<p>
+Nuestro objetivo es ofrecer un ambiente tranquilo, limpio y familiar para que
+cada visitante se sienta como en casa durante su estancia.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- CARTEL DESTACADO -->
+
+<section class="cartel-section">
+
+<h2 class="titulo-verde">Información</h2>
+
+<img class="cartel" src="imagenes/cartel publicitario.png">
+
+</section>
+
+
+<!-- GALERIA -->
+
+<section class="seccion-galeria container">
+
+<h2 class="titulo-verde">Conoce Nuestra Casa</h2>
+
+
+<div class="categoria">
+
+<h3>Habitaciones</h3>
+
+<div class="galeria-grid">
+
+<img src="imagenes/2habitacion doble.png">
+<img src="imagenes/habitacion doble.png">
+<img src="imagenes/habitacion sencilla.png">
+<img src="imagenes/pasillo habitaciones.png">
+
+</div>
+
+</div>
+
+
+<div class="categoria">
+
+<h3>Sala, comedor y cocina</h3>
+
+<div class="galeria-grid">
+
+<img src="imagenes/sala.png">
+<img src="imagenes/sala con mesa.png">
+<img src="imagenes/comedor.png">
+<img src="imagenes/cocina.png">
+<img src="imagenes/entrada comedor y sala.png">
+
+</div>
+
+</div>
+
+
+<div class="categoria">
+
+<h3>Baños</h3>
+
+<div class="galeria-grid">
+
+<img src="imagenes/baño1.png">
+<img src="imagenes/baños2.png">
+<img src="imagenes/baños3.png">
+
+</div>
+
+</div>
+
+
+<div class="categoria">
+
+<h3>Accesos</h3>
+
+<div class="galeria-grid">
+
+<img src="imagenes/entrada.png">
+<img src="imagenes/entrada escaleras.png">
+<img src="imagenes/escaleras.png">
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- RESERVA -->
+
+<section id="reservar" class="seccion-reserva">
+
+<div class="reserva-card">
+
+<h2 class="titulo-verde">Apartar habitación</h2>
+
+<div class="form-grupo">
+
+<label>Tipo de habitación</label>
+
+<select id="sel-hab">
+
+<option value="Habitación sencilla" data-precio="250">Habitación sencilla</option>
+<option value="Habitación doble" data-precio="450">Habitación doble</option>
+<option value="Casa completa" data-precio="1200">Casa completa</option>
+
+</select>
+
+</div>
+
+
+<div class="form-grupo">
+
+<label>Número de personas</label>
+
+<input type="number" id="num-pers" min="1" value="1">
+
+</div>
+
+
+<div class="total-box">
+
+<p>Total estimado: <span id="txt-total">$250 MXN</span></p>
+
+</div>
+
+
+<button id="btn-whatsapp" class="btn-reserva">
+
+Reservar por WhatsApp
+
+</button>
+
+</div>
+
+</section>
+
+
+<!-- MAPA -->
+
+<section class="seccion-mapa container">
+
+<h2 class="titulo-verde">Ubicación</h2>
+
+<div class="mapa-contenedor">
+
+<iframe
+src="https://www.google.com/maps?q=Casa+Malegrande+Chalma&output=embed"
+width="100%"
+height="450"
+style="border:0;"
+loading="lazy">
+</iframe>
+
+<p class="direccion">
+📍 Casa Malegrande
+</p>
+
+</div>
+
+</section>
+
+
+<footer class="footer">
+
+<p>Casa Malegrande © 2026</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
